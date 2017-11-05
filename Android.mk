@@ -6,7 +6,7 @@ ifneq ($(ANDROID_BUILD_TOP),)
 endif
 
 LOCAL_MODULE_TAGS := optional
-LOCAL_PACKAGE_NAME := XenonOTA
+LOCAL_PACKAGE_NAME := PornOTA
 LOCAL_PRIVILEGED_MODULE := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, app/src/main)

@@ -31,7 +31,7 @@ import java.net.URL;
 
 public final class OTAUtils {
 
-    private static final String TAG = "XenonOTA";
+    private static final String TAG = "PornOTA";
     private static final boolean DEBUG = true;
 
     private OTAUtils() {
@@ -57,11 +57,11 @@ public final class OTAUtils {
     }
 
     public static String getDeviceName(Context context) {
-        return SystemProperties.get("ro.xenonhd.device");
+        return SystemProperties.get("ro.paosp.device");
     }
 
     public static String getBuildVersion(Context context) {
-        return SystemProperties.get("ro.xenonhd.version");
+        return SystemProperties.get("ro.paosp.version");
     }
 
     public static String runCommand(String command) {

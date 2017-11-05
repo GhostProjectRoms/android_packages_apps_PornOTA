@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.dialogs;
+package com.paospota.dialogs;
 
 import android.app.Activity;
 import android.app.Fragment;

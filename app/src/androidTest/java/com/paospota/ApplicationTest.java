@@ -14,33 +14,16 @@
  * limitations under the License.
  */
 
-package com.xenonota.xml;
+package com.paospota;
 
-import java.util.ArrayList;
-import java.util.List;
+import android.app.Application;
+import android.test.ApplicationTestCase;
 
-public class OTADevice {
-
-    private List<OTALink> mLinks;
-    private String mLatestVersion;
-
-    OTADevice() {
-        mLinks = new ArrayList<>();
-    }
-
-    void addLink(OTALink link) {
-        mLinks.add(link);
-    }
-
-    public List<OTALink> getLinks() {
-        return mLinks;
-    }
-
-    public String getLatestVersion() {
-        return mLatestVersion;
-    }
-
-    void setLatestVersion(String latestVersion) {
-        this.mLatestVersion = latestVersion;
+/**
+ * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
+ */
+public class ApplicationTest extends ApplicationTestCase<Application> {
+    public ApplicationTest() {
+        super(Application.class);
     }
 }

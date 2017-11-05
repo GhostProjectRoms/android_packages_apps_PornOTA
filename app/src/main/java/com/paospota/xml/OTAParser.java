@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.xml;
+package com.paospota.xml;
 
 import android.util.Xml;
 

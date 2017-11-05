@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.tasks;
+package com.paospota.tasks;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -30,16 +30,16 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 
-import com.xenonota.MainActivity;
-import com.xenonota.R;
-import com.xenonota.configs.AppConfig;
-import com.xenonota.configs.LinkConfig;
-import com.xenonota.configs.OTAConfig;
-import com.xenonota.configs.OTAVersion;
-import com.xenonota.dialogs.WaitDialogHandler;
-import com.xenonota.utils.OTAUtils;
-import com.xenonota.xml.OTADevice;
-import com.xenonota.xml.OTAParser;
+import com.paospota.MainActivity;
+import com.paospota.R;
+import com.paospota.configs.AppConfig;
+import com.paospota.configs.LinkConfig;
+import com.paospota.configs.OTAConfig;
+import com.paospota.configs.OTAVersion;
+import com.paospota.dialogs.WaitDialogHandler;
+import com.paospota.utils.OTAUtils;
+import com.paospota.xml.OTADevice;
+import com.paospota.xml.OTAParser;
 
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -157,16 +157,16 @@ public class CheckUpdateTask extends AsyncTask<Context, Void, OTADevice> {
         NotificationManager notificationManager =
                 (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         int notifyID = 1;
-        String id = "xenonota_channel";
-        CharSequence name = context.getString(R.string.xenonota_channel);
-        String description = context.getString(R.string.xenonota_channel_description);
+        String id = "paospota_channel";
+        CharSequence name = context.getString(R.string.paospota_channel);
+        String description = context.getString(R.string.paospota_channel_description);
         int importance = NotificationManager.IMPORTANCE_LOW;
         NotificationChannel mChannel = new NotificationChannel(id, name, importance);
         mChannel.setDescription(description);
         notificationManager.createNotificationChannel(mChannel);
 
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context.getApplicationContext())
-                .setSmallIcon(R.drawable.ic_notification_xenonota)
+                .setSmallIcon(R.drawable.ic_notification_paospota)
                 .setContentTitle(context.getString(R.string.notification_title))
                 .setContentText(context.getString(R.string.notification_message))
                 .setOnlyAlertOnce(true)

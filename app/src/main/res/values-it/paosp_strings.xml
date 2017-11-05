@@ -37,6 +37,6 @@
   <!-- Notification -->
   <string name="notification_title">Aggiornamento PornAOSP</string>
   <string name="notification_message">È disponibile una nuova versione!</string>
-  <string name="xenonota_channel">Notifiche di PornOTA</string>
-  <string name="xenonota_channel_description">Notifiche sui nuovi aggiornamenti di PornAOSP</string>
+  <string name="paospota_channel">Notifiche di PornOTA</string>
+  <string name="paospota_channel_description">Notifiche sui nuovi aggiornamenti di PornAOSP</string>
 </resources>

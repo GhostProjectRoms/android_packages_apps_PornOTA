@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.xenonota.configs;
+package com.paospota.configs;
 
 import android.app.AlarmManager;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.xenonota.R;
-import com.xenonota.utils.OTAUtils;
+import com.paospota.R;
+import com.paospota.utils.OTAUtils;
 
 import java.text.DateFormat;
 import java.util.Date;

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.xenonota;
+package com.paospota;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import com.xenonota.configs.LinkConfig;
-import com.xenonota.dialogs.WaitDialogFragment;
-import com.xenonota.fragments.PornOTAFragment;
+import com.paospota.configs.LinkConfig;
+import com.paospota.dialogs.WaitDialogFragment;
+import com.paospota.fragments.PornOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {

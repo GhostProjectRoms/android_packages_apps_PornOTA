@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.xenonota.configs;
+package com.paospota.configs;
 
 import android.content.Context;
 
-import com.xenonota.utils.OTAUtils;
-import com.xenonota.xml.OTALink;
-import com.xenonota.xml.OTAParser;
+import com.paospota.utils.OTAUtils;
+import com.paospota.xml.OTALink;
+import com.paospota.xml.OTAParser;
 
 import org.json.JSONArray;
 import org.json.JSONException;

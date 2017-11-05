@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.utils;
+package com.paospota.utils;
 
 import android.content.Context;
 import android.content.Intent;

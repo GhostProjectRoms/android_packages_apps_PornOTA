@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.fragments;
+package com.paospota.fragments;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -25,14 +25,14 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.xenonota.R;
-import com.xenonota.configs.AppConfig;
-import com.xenonota.configs.LinkConfig;
-import com.xenonota.configs.OTAVersion;
-import com.xenonota.dialogs.WaitDialogFragment;
-import com.xenonota.tasks.CheckUpdateTask;
-import com.xenonota.utils.OTAUtils;
-import com.xenonota.xml.OTALink;
+import com.paospota.R;
+import com.paospota.configs.AppConfig;
+import com.paospota.configs.LinkConfig;
+import com.paospota.configs.OTAVersion;
+import com.paospota.dialogs.WaitDialogFragment;
+import com.paospota.tasks.CheckUpdateTask;
+import com.paospota.utils.OTAUtils;
+import com.paospota.xml.OTALink;
 
 import java.util.List;
 
@@ -54,7 +54,7 @@ public class PornOTAFragment extends PreferenceFragment implements
         super.onCreate(savedInstanceState);
         setRetainInstance(true);
 
-        addPreferencesFromResource(R.xml.xenonota);
+        addPreferencesFromResource(R.xml.paospota);
 
         String KEY_ROM_INFO = "key_rom_info";
         mRomInfo = (PreferenceScreen) getPreferenceScreen().findPreference(KEY_ROM_INFO);

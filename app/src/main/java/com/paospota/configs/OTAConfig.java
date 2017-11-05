@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.xenonota.configs;
+package com.paospota.configs;
 
 import android.content.Context;
 
-import com.xenonota.utils.OTAUtils;
+import com.paospota.utils.OTAUtils;
 
 import java.io.IOException;
 import java.io.InputStream;

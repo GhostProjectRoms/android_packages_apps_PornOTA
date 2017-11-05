@@ -23,21 +23,21 @@ import android.view.MenuItem;
 
 import com.xenonota.configs.LinkConfig;
 import com.xenonota.dialogs.WaitDialogFragment;
-import com.xenonota.fragments.XenonOTAFragment;
+import com.xenonota.fragments.PornOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {
 
-    private static final String FRAGMENT_TAG = XenonOTAFragment.class.getName();
+    private static final String FRAGMENT_TAG = PornOTAFragment.class.getName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        XenonOTAFragment mFragment = (XenonOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
+        PornOTAFragment mFragment = (PornOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
         if (mFragment == null) {
             getFragmentManager().beginTransaction()
-                    .replace(android.R.id.content, new XenonOTAFragment(), FRAGMENT_TAG)
+                    .replace(android.R.id.content, new PornOTAFragment(), FRAGMENT_TAG)
                     .commit();
         }
         assert getActionBar() != null;

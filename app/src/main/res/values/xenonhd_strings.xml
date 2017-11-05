@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 PornAOSP
+<!-- Copyright (C) 2017 XenonHD
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- App -->
-    <string name="app_name">PornOTA</string>
-    <string name="app_title">PornAOSP updates</string>
+    <string name="app_name">XenonOTA</string>
+    <string name="app_title">XenonHD updates</string>
 
     <!-- Categories -->
     <string name="ota_category">Update section</string>
@@ -40,9 +40,9 @@
     <string name="no_update_available">No update available</string>
 
     <!-- Notification -->
-    <string name="notification_title">PornAOSP Update</string>
+    <string name="notification_title">XenonHD Update</string>
     <string name="notification_message">A new version is available!</string>
-    <string name="xenonota_channel">PornOTA notifications</string>
-    <string name="xenonota_channel_description">Notifications about new PornAOSP updates</string>
+    <string name="xenonota_channel">XenonOTA notifications</string>
+    <string name="xenonota_channel_description">Notifications about new XenonHD updates</string>
 
 </resources>

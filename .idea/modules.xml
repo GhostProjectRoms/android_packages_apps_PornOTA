@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PornOTA.iml" filepath="$PROJECT_DIR$/PornOTA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XenonOTA.iml" filepath="$PROJECT_DIR$/XenonOTA.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

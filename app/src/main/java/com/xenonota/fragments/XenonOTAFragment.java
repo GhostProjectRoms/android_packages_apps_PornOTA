@@ -36,7 +36,7 @@ import com.xenonota.xml.OTALink;
 
 import java.util.List;
 
-public class PornOTAFragment extends PreferenceFragment implements
+public class XenonOTAFragment extends PreferenceFragment implements
         SharedPreferences.OnSharedPreferenceChangeListener,
         WaitDialogFragment.OTADialogListener,
         LinkConfig.LinkConfigListener {

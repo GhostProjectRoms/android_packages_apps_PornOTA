@@ -29,7 +29,7 @@
 #
 # OTA_configuration
 #
-ota_url=https://mirrors.c0urier.net/android/teamhorizon/O/OTA/ota_device.xml
+ota_url=https://github.com/PornAOSP/android_packages_apps_PornOTA/blob/o/examples/ota_device.xml
 device_name=ro.paosp.device
 release_type=Oreo
 version_source=ro.paosp.version
